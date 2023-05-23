@@ -13,7 +13,7 @@ Configuração base de um projeto Golang
 ### Instalação
 Assume que atenda aos pré-requisitos informados acima para seguir com os passos abaixo:
 
-Criar o arquivo app.env na raiz do projeto e configurar as seguintes variáveis:
+Criar app.env na raiz do projeto:
 ```sh
 PORT=8000
 MONGO_INITDB_ROOT_USERNAME=root
@@ -22,7 +22,7 @@ MONGODB_LOCAL_URI=mongodb://root:password123@localhost:6000
 REDIS_URL=localhost:6379
 ```
 
-
+Clonar repositório
 ```sh
 $ git clone https://github.com/edujudici/golang-redis-mongo.git
 ```
